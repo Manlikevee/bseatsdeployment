@@ -1,0 +1,48 @@
+/* App.css */
+
+.app {
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.current-blog img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.previous-blogs {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.previous-blog img {
+    width: 150px;
+    height: 100px;
+}
+
+.login-container, .blog-upload-container {
+    margin-top: 80px;
+}
+
+form input, form textarea {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+}
