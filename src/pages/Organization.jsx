@@ -12,7 +12,7 @@ const Organization = () => {
       <div className="organisation relative h-[553px] overflow-hidden flex justify-start items-center px-[20px] lg:px-24">
         <div className="h-full w-full absolute top-0 bg-[#0000004A] z-0 left-0"></div>
         <div className="text-white z-10">
-          <h4 className="text-[45px] lg:text-[64px] font-semibold leading-[70px] mb-5 max-w-[712px]">
+          <h4 className="text-[35px] lg:text-[64px] font-semibold leading-[1.3] mb-5 max-w-[712px]">
             Access to Pre-verified Board Candidates
           </h4>
           <p className="max-w-[493.89px]">
@@ -32,7 +32,7 @@ const Organization = () => {
         </div>
       </div>
       <div className="flex flex-col items-center py-[60px] px-[20px] lg:[px-0]">
-        <h3 className="text-[32px] font-semibold md:w-[500px] flex flex-col text-center">
+        <h3 className="text-[27px] font-semibold md:w-[500px] flex flex-col text-center">
           <span>
             <span className="text-[#A91F2F]">Optimised Board</span> Recruitment
           </span>

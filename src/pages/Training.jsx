@@ -68,7 +68,7 @@ const Training = () => {
           <span className="text-[#BD0B20]">C</span>LIENT{" "}
           <span className="text-[#BD0B20]">T</span>ESTIMONIAL{" "}
         </h4>
-        <iframe className="" width="1178" height="515" src="https://www.youtube.com/embed/ZNb9VSCp_TQ"
+        <iframe className="" width="100%" height="515" src="https://www.youtube.com/embed/ZNb9VSCp_TQ"
                 title="Corporate Governance &amp; Risk Management Training - Client Testimonial" frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>

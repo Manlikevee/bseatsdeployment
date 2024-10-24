@@ -13,7 +13,7 @@ const Candidates = () => {
       <div className="candidates relative h-[553px] overflow-hidden flex justify-start items-center px-[20px] lg:px-24">
         <div className="h-full w-full absolute top-0 bg-[#0000004A] z-0 left-0"></div>
         <div className="text-white z-10">
-          <h4 className="text-[50px] lg:text-[64px] font-semibold leading-[70px] mb-5 max-w-[712px]">
+        <h4 className="text-[35px] lg:text-[64px] font-semibold leading-[1.3] mb-5 max-w-[712px]">
             Access Executive & Board Roles
           </h4>
           <p className="max-w-[493.89px]">
@@ -30,7 +30,7 @@ const Candidates = () => {
         <p className="text-[#BD0B20] text-[14px] uppercase text-center font-semibold z-10">
           How does it work?
         </p>
-        <h4 className="max-w-[65%] text-[35px] lg:text-[45px] font-semibold text-center leading-[50px] mb-5 mt-5 z-10">
+        <h4 className="max-w-[65%] text-[25px] lg:text-[45px] font-semibold text-center leading-[1.3] mb-5 mt-5 z-10">
           Optimised Recruitment for Executives
         </h4>
         <div className="flex flex-col lg:flex-row lg:justify-between items-center w-full lg:px-5 xl:px-24 my-5">

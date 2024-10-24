@@ -14,7 +14,7 @@ import Pelumi from "../assets/About/pelumi.svg";
 
 const About = () => {
   return (
-    <div className="w-screen overflow-x-hidden">
+    <div className="w-full overflow-x-hidden">
       <div className="flex flex-col lg:flex-row justify-between items-center lg:pl-28">
         <div className="px-[20px] lg:px-0 pt-10 lg:pt-0">
           <div className="bg-[#F5E6E8] text-[#BD0B20] h-[39px] w-[123px] grid place-items-center font-semibold rounded-[3px]">

@@ -153,7 +153,7 @@ const FAQs = () => {
           </p>
         </div>
       </div>
-      <div className="faq-section md:px-28 px-[20px] py-10">
+      <div className="faq-section md:px-28 px-[10px] py-10">
 
       <Accordion transition transitionTimeout={250}>
   {faqData && faqData.length > 0 && (
