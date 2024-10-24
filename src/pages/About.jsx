@@ -36,7 +36,7 @@ const About = () => {
         <p className="text-[#BD0B20] text-[14px] uppercase text-center font-semibold">
           Our vision
         </p>
-        <h4 className="lg:max-w-[65%] text-[25px] lg:text-[45px] font-semibold text-center leading-[50px] mb-5 mt-5">
+        <h4 className="lg:max-w-[65%] text-[20px] lg:text-[45px] font-semibold text-center leading-[1.2] mb-5 mt-5">
           To be the Leader in Governance Recruitment in Sub-Saharan Africa
         </h4>
         <p className="text-[#424243] max-w-[620px] text-center">
@@ -50,7 +50,7 @@ const About = () => {
         <p className="text-[#BD0B20] text-[14px] uppercase text-center font-semibold">
           our value proposition
         </p>
-        <h4 className="max-w-[65%] text-[25px] lg:text-[45px] font-semibold text-center leading-[50px] mt-5">
+        <h4 className="max-w-[65%] text-[20px] lg:text-[45px] font-semibold text-center leading-[1.2] mt-5">
           A secure and intuitive platform that offers
         </h4>
         <div className="grid lg:grid-cols-3 lg:grid-rows-2 mt-20 justify-center relative z-10">
@@ -130,7 +130,7 @@ const About = () => {
         <p className="text-[#BD0B20] text-[14px] uppercase text-center font-semibold">
           MEET THE TEAM
         </p>
-        <h4 className="lg:max-w-[65%] text-[25px] lg:text-[45px] font-semibold text-center leading-[50px] mt-5">
+        <h4 className="lg:max-w-[65%] text-[20px] lg:text-[45px] font-semibold text-center leading-[1.2] mt-5">
           The People at BoardSeats
         </h4>
         <div className="flex justify-center flex-wrap lg:grid grid-cols-4 justify-items-center gap-20 mt-20">
