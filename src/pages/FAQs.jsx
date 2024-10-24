@@ -198,22 +198,22 @@ const FAQs = () => {
             enquiries and feedback.{" "}
           </p>
         </div>
-        <form action="" className="lg:w-[300px] mt-10 lg:mt-0">
+        <form action="" className="w-full lg:w-[300px] mt-10 lg:mt-0">
           <input
             type="text"
-            className="w-full h-[60px] bg-white border-none outline-none mb-5 pl-3"
+            className="w-full max-w-full h-[60px] bg-white border-none outline-none mb-5 pl-3"
             placeholder="Full Name"
           />
           <input
             type="email"
-            className="w-full h-[60px] bg-white border-none outline-none mb-5 pl-3"
+            className="w-full max-w-full h-[60px] bg-white border-none outline-none mb-5 pl-3"
             placeholder="Email Address"
           />
           <textarea
             name=""
             id=""
             placeholder="Message"
-            className="w-full h-[100px] bg-white border-none outline-none mb-5 resize-none pl-3 pt-3"
+            className="w-full max-w-full h-[100px] bg-white border-none outline-none mb-5 resize-none pl-3 pt-3"
           ></textarea>
           <button className="w-full h-[60px] bg-[#BD0B20] border-none outline-none text-white uppercase">
             send
