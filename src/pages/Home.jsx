@@ -20,7 +20,7 @@ const Home = () => {
       <div className="hero relative w-full h-max pb-14 overflow-hidden text-white bg-fixed">
         <div className="absolute w-full h-full bg-[#0000008A] z-10"></div>
         <div className="relative z-10 flex flex-col items-center w-full mt-[100px] lg:mt-[160px]">
-          <h2 className="text-[35px] md:text-[29px] lg:text-[38px] xl:text-[48px] font-semibold text-center px-[20px] md:max-w-[75%] lg:max-w-[90%] mb-2 leading-[1.2]">
+          <h2 className="text-[25px] md:text-[29px] lg:text-[38px] xl:text-[48px] font-semibold text-center px-[20px] md:max-w-[75%] lg:max-w-[90%] mb-2 leading-[1.2]">
             An exclusive community for leading organisations & board-ready
             candidates
           </h2>
@@ -62,7 +62,7 @@ const Home = () => {
         </div>
       </div>
       <div className="flex flex-col items-center py-[60px] px-[20px] lg:[px-0]">
-        <h3 className="text-[32px] font-semibold md:w-[500px] flex flex-col text-center">
+        <h3 className="text-[27px] font-semibold md:w-[500px] flex flex-col text-center">
           <span>
             <span className="text-[#A91F2F]">Optimised Board</span> Recruitment
           </span>
@@ -351,7 +351,7 @@ const Home = () => {
             enquiries and feedback.{" "}
           </p>
         </div>
-        <form action="" className="lg:w-[300px] mt-10 lg:mt-0">
+        <form action="" className="w-full lg:w-full mt-10 lg:mt-0">
           <input
             type="text"
             className="w-full h-[60px] bg-white border-none outline-none mb-5 pl-3"
