@@ -1061,6 +1061,16 @@ body {
     overflow: clip;
 }
 
+.mynv{
+    box-shadow: 0px 4px 4px 1px #23232440;
+
+
+}
+
+.triangle{
+border-left: 1px solid #23232440;
+}
+
 .mycontainer {
     line-height: 27px;
     width: 90%;

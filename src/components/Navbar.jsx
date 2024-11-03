@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="h-[90px] bg-white flex justify-between items-center w-screen px-5 lg:px-5 xl:px-16 2xl:px-20 fixed z-50">
+    <div className="mynv h-[90px] bg-white flex justify-between items-center w-screen px-5 lg:px-5 xl:px-16 2xl:px-20 fixed z-50">
       <div className="">
         <Link to={"/"}>
           {/* making the nav logo link to the homepage */}
@@ -133,7 +133,7 @@ const Navbar = () => {
             </li>
           </Link>
           {/* NEW NAVBAR "DESIGN" */}
-          <div className="hidden lg:flex absolute top-[90px] right-0 bg-white pr-14 py-4 pl-1 gap-20">
+          <div className="mynv hidden lg:flex absolute top-[90px] right-0 bg-white pr-14 py-4 pl-1 gap-20">
             <div className="triangle"></div>
             <div className="w-full relative lg:w-max h-[60px] lg:h-max bg-[#eeeeee] lg:bg-inherit mb-3 lg:mb-0">
               <li

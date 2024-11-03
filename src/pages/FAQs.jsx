@@ -21,107 +21,135 @@ import Fifteen from "../assets/FAQ/fifteenth.svg";
 import Sixteen from "../assets/FAQ/sixteenth.svg";
 import Seventeen from "../assets/FAQ/seventeenth.svg";
 
+
+import imgone from "../assets/FAQ/faq/faq (1).png";
+import imgtwo from "../assets/FAQ/faq/faq (2).png";
+import imgthree from "../assets/FAQ/faq/faq (3).png";
+import imgfour from "../assets/FAQ/faq/faq (4).png";
+import imgfive from "../assets/FAQ/faq/faq (5).png";
+import imgsix from "../assets/FAQ/faq/faq (6).png";
+import imgseven from "../assets/FAQ/faq/faq (7).png";
+import imgeight from "../assets/FAQ/faq/faq (8).png";
+import imgnine from "../assets/FAQ/faq/faq (9).png";
+import imgten from "../assets/FAQ/faq/faq (10).png";
+import imgeleven from "../assets/FAQ/faq/faq (11).png";
+import imgtwelve from "../assets/FAQ/faq/faq (12).png";
+import imgthirteen from "../assets/FAQ/faq/faq (13).png";
+import imgfourteen from "../assets/FAQ/faq/faq (14).png";
+import imgfifteen from "../assets/FAQ/faq/faq (15).png";
+import imgsixteen from "../assets/FAQ/faq/faq (16).png";
+import imgseventeen from "../assets/FAQ/faq/faq (17).png";
+import imgeighteen from "../assets/FAQ/faq/faq (18).png";
+import imgnineteen from "../assets/FAQ/faq/faq (19).png";
+import imgtwenty from "../assets/FAQ/faq/faq (20).png";
+
 const FAQs = () => {
   // FAQ data array
   const faqData = [
     {
-      image: One,
+      image: imgone,
       question: "Why BoardSeats?",
       answer:
         "BoardSeats is open to professionals with board experience or those aspiring to board roles. It is ideal for executives, industry experts, and leaders across various sectors looking to contribute their skills to Heavy reliance on limited networks, along with traditional search methods that have proven to be time-consuming and resource-intensive, often result in organisations missing out on exceptional board talents that could drive significant business growth. BoardSeats solves this problem by streamlining the board recruitment process using our carefully designed auto-matching system that matches organisations with potential candidates based on their expertise, experience, and alignment with your strategic needs. Simply post your board role, and our platform will help you connect with qualified executives. governance and advisory roles.",
     },
     {
-      image: Two,
+      image: imgnine,
       question: "Who can join BoardSeats",
       answer:
         "BoardSeats is open to executives with board-ready experience, as well as aspiring board members. It is ideal for executives, industry experts, and leaders across various sectors, and organisations, such as listed entities, private companies, non-profits, startups and government owned entities.",
     },
     {
-      image: Three,
+      image: imgtwo,
       question: "How do I post a board role on BoardSeats?",
       answer:
         "Posting a role is simple. Create a corporate account, complete your corporate profile, and fill out your role by selecting the bouquet that best suits your current needs and requirements. Once your role is successfully posted, you will start receiving applications from registered candidates. ",
     },
     {
-      image: Four,
+      image: imgfour,
       question: "Can I get assistance with setting up my board?",
       answer:
         "Yes, our enterprise and enterprise pro bouquets are designed for organisations who don't have the time or require external expertise to manage their entire recruitment process. From posting roles to screening, assessment and onboarding, our team manages the entire process for you, saving valuable time and adding our expert recruitment input for the success of your search. Our experts can support you in building a board that aligns with your organisational goals. ",
     },
     {
-      image: Five,
+      image: imgthree,
       question: "Do small businesses or organisations need a board?",
       answer:
         "Yes, a well-structured business whether small or large should have a board. Having a strong board brings diverse perspectives, expertise, and leadership to the enterprise, helping to steer the organisations through challenges and opportunities. ",
     },
     {
-      image: Six,
+      image: imgfive,
       question: "Is there a fee to joining BoardSeats as an individual? ",
       answer: "No, BoardSeats is currently free to all candidates. ",
     },
     {
-      image: Seven,
+      image: imgfive,
       question: "Is there a fee to joining BoardSeats as an organisation?  ",
       answer:
         "Yes, we have 4 bouquets. Please see the Pricing Page for more details. ",
     },
     {
-      image: Eight,
+      image: imgsix,
       question: "Are there resources to help me use BoardSeats effectively? ",
       answer:
         "Yes, absolutely. We provide; a comprehensive user guide, tutorial videos, periodic webinars, and one-on-one support as needed. ",
     },
     {
-      image: Nine,
+      image: imgseven,
       question: "Can we post multiple board positions? ",
       answer:
         "Yes, organisations can post multiple board positions, manage all postings from a central dashboard, and receive tailored matches for each position. ",
     },
     {
-      image: Ten,
+      image: imgeleven,
       question:
         "Is my personal information secure during the verification process?",
       answer:
         "Yes, absolutely. We use industry-standard encryption and security measures to protect your data. Your documents are only accessible to our authorised verification team and are never shared with other users or third parties. ",
     },
     {
-      image: Eleven,
+      image: imgtwelve,
       question: "How can I ensure my resume is parsed correctly?",
       answer:
         "For optimal resume parsing: Use standard resume formats Ensure clear section headings Review the parsed information for accuracy Make manual adjustments if needed",
     },
     {
-      image: Twelve,
+      image: imgthirteen,
+      question: "What types of board positions are available on BoardSeats? ",
+      answer:
+        "Board opportunities are matched to your profile using a tailored approach based on several key factors such as industry expertise, years of experience, specific skills and qualifications, and geographical location if applicable. ",
+    },
+    {
+      image: imgeighteen,
       question: "How are board opportunities matched to my profile? ",
       answer:
         "Board opportunities are matched to your profile using a tailored approach based on several key factors such as industry expertise, years of experience, specific skills and qualifications, and geographical location if applicable. ",
     },
     {
-      image: Thirteen,
+      image: imgseventeen,
       question: "Can I update my profile after verification?",
       answer:
         "Yes, you can update necessary parts of your profile at any time. ",
     },
     {
-      image: Fourteen,
+      image: imgfourteen,
       question: "What is a Letter of Good Standing and how do I obtain one?",
       answer:
         "A Letter of Good Standing is a document that confirms your professional status and conduct. It can typically be obtained from: Professional associations you belong to The letter should confirm your work experience and professional integrity.",
     },
     {
-      image: Fifteen,
+      image: imgnineteen,
       question: "Why do I need to verify my identity on BoardSeats?",
       answer:
         "BoardSeats is committed to maintaining a trusted network of genuine candidates. Identity verification helps ensure the authenticity of all users on our platform, creating a secure environment for board-level connections and opportunities. The required documents are: Government-issued ID (passport, driver's license, or national ID card) and Letter of Good Standing or equivalent professional reference. ",
     },
     {
-      image: Sixteen,
+      image: imgfifteen,
       question: "Can I update my profile after creating it? ",
       answer:
         'Yes, you can update your profile at any time by following these steps: Log in to your account. Go to the "Profile" section. Make the necessary changes. Save your updates. This ensures your profile stays current and reflects your most recent experiences and skills. ',
     },
     {
-      image: Seventeen,
+      image: imgtwenty,
       question:
         "Can I sign up as both an executive and an organization on BoardSeats? ",
       answer:
@@ -153,7 +181,7 @@ const FAQs = () => {
           </p>
         </div>
       </div>
-      <div className="faq-section md:px-28 px-[10px] py-10">
+      <div className="faq-section md:px-28 px-[20px] py-10">
 
       <Accordion transition transitionTimeout={250}>
   {faqData && faqData.length > 0 && (
@@ -198,22 +226,22 @@ const FAQs = () => {
             enquiries and feedback.{" "}
           </p>
         </div>
-        <form action="" className="w-full lg:w-[300px] mt-10 lg:mt-0">
+        <form action="" className="lg:w-[300px] mt-10 lg:mt-0">
           <input
             type="text"
-            className="w-full max-w-full h-[60px] bg-white border-none outline-none mb-5 pl-3"
+            className="w-full h-[60px] bg-white border-none outline-none mb-5 pl-3"
             placeholder="Full Name"
           />
           <input
             type="email"
-            className="w-full max-w-full h-[60px] bg-white border-none outline-none mb-5 pl-3"
+            className="w-full h-[60px] bg-white border-none outline-none mb-5 pl-3"
             placeholder="Email Address"
           />
           <textarea
             name=""
             id=""
             placeholder="Message"
-            className="w-full max-w-full h-[100px] bg-white border-none outline-none mb-5 resize-none pl-3 pt-3"
+            className="w-full h-[100px] bg-white border-none outline-none mb-5 resize-none pl-3 pt-3"
           ></textarea>
           <button className="w-full h-[60px] bg-[#BD0B20] border-none outline-none text-white uppercase">
             send
