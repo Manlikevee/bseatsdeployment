@@ -1193,6 +1193,16 @@ border-top-right-radius: 15px;
 border-top-left-radius: 15px;
 transition:  0.45s cubic-bezier(0, 0, 0, 1);
   }
+.activeimg{
+    display: none;
+}
+  .szh-accordion__item--expanded .activeimg{
+    display: block;
+  }
+  .szh-accordion__item--expanded .inactiveimg{
+    display: none;
+  }
+
   .szh-accordion__item button{
     width: 100%;
     text-align: start;

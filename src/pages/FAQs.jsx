@@ -171,7 +171,7 @@ const FAQs = () => {
     },
     {
       image: imgnineteen,
-      activeimage: activeimgnineteen,
+      activeimage: activeimgfourteen,
       question: "Why do I need to verify my identity on BoardSeats?",
       answer:
         "BoardSeats is committed to maintaining a trusted network of genuine candidates. Identity verification helps ensure the authenticity of all users on our platform, creating a secure environment for board-level connections and opportunities. The required documents are: Government-issued ID (passport, driver's license, or national ID card) and Letter of Good Standing or equivalent professional reference. ",
@@ -185,7 +185,7 @@ const FAQs = () => {
     },
     {
       image: imgtwenty,
-      activeimage: activeimgtwenty,
+      activeimage: activeimgfourteen,
       question:
         "Can I sign up as both an executive and an organization on BoardSeats? ",
       answer:
@@ -227,7 +227,8 @@ const FAQs = () => {
                 header={
                   <div className="accordioncontrol">
                     <div className="questionbox">
-                      <img src={item.image} alt="" />
+                      <img src={item.image} alt="" className="inactiveimg" />
+                      <img src={item.activeimage} alt=""  className="activeimg"/>
                       <p className="text-[16px] md:text-[19px] lg:text-[19px] font-semibold leading-[24px]">
                         {item.question}
                       </p>
