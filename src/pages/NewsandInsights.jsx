@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
+import Insightlayout from "../components/Insightlayout";
+import { Link } from "react-router-dom";
 
 
 const NewsandInsights = () => {
@@ -18,31 +20,117 @@ const NewsandInsights = () => {
 
     if (blogs.length === 0) {
         return (
-            <div>
-                <div className="news relative h-[553px] overflow-hidden grid place-items-center">
-                    <div className="w-full h-full bg-[#0000004A] z-0 absolute top-0"></div>
-                    <div className="relative z-10 text-center text-white">
-                        <h3 className="text-[45px] lg:text-[64px] font-semibold">
-                            Exclusive Insights for our community
-                        </h3>
-                        <p>
-                            Get periodic updates and announcements on board opportunities,
-                            governance insights and news.
-                        </p>
-                    </div>
-                </div>
-                <div className="py-28 px-[20px] lg:px-24 flex justify-center flex-col items-center">
-                    <div className="px-[20px] text-center pt-20 pb-40 flex flex-col items-center justify-center">
-                        <p className="text-[24px] text-[#424243]">
-                           No blog posts yet!
-                        </p>
-                        <p>
-                            Stay Connected.{" "}
-                            <a href={"/"}><span className="text-[#A91F2F]">Back to home page</span></a>
-                        </p>
-                    </div>
-                </div>
-            </div>);
+            // <div>
+            //     <div className="news relative h-[553px] overflow-hidden grid place-items-center">
+            //         <div className="w-full h-full bg-[#0000004A] z-0 absolute top-0"></div>
+            //         <div className="relative z-10 text-center text-white">
+            //             <h3 className="text-[45px] lg:text-[64px] font-semibold">
+            //                 Exclusive Insights for our community
+            //             </h3>
+            //             <p>
+            //                 Get periodic updates and announcements on board opportunities,
+            //                 governance insights and news.
+            //             </p>
+            //         </div>
+            //     </div>
+            //     <div className="py-28 px-[20px] lg:px-24 flex justify-center flex-col items-center">
+            //         <div className="px-[20px] text-center pt-20 pb-40 flex flex-col items-center justify-center">
+            //             <p className="text-[24px] text-[#424243]">
+            //                No blog posts yet!
+            //             </p>
+            //             <p>
+            //                 Stay Connected.{" "}
+            //                 <a href={"/"}><span className="text-[#A91F2F]">Back to home page</span></a>
+            //             </p>
+            //         </div>
+            //     </div>
+            // </div>
+            <>
+            <Insightlayout>
+
+<>
+  <div className="abouthero">
+    <div className="aboutheroimg">
+      <div className="blogsec">
+        <h1>Exclusive Insights for our community</h1>
+        <div className="aboutheroimgbody">
+          Get constant updates and annoucements of events in the Baord
+          recruitment world. We are here to help you effectively position
+          yourself
+        </div>
+      </div>
+    </div>
+  </div>
+  <section className="blogsec">
+    &nbsp;
+    <div className="established">
+      <div
+        className="offercard"
+        style={{ textAlign: "start !important", alignItems: "initial" }}
+      >
+        <div className="offercardimg">
+          <img alt="" src="https://boardseats.io/documents/20121/0/room.jpg/" />
+        </div>
+        <div className="offertxt">
+          <div className="offerheader" style={{ textAlign: "start" }}>
+            HIGH IMPACT STRATEGIC RECRUITMENT
+          </div>
+          <div className="offercardcontentbody" style={{ textAlign: "start" }}>
+            A few years ago, Amazon came under fire after its Board opposed a
+            shareholder proposal to increase its (the Board’s) diversity. The
+            proposal would require the Board to consider women and minority
+            candidates for director positions.
+          </div>
+          <div className="readmoreabt" style={{ marginTop: 20 }}>
+            <span className="datemore">September 2024</span>{" "}
+            <a
+              className="redread"
+              href="https://docsend.com/view/jyyf2cy8d27c4tcx"
+            >
+              Read more
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    &nbsp;
+    <div className="offergridcard">
+      <div
+        className="offercard"
+        style={{ textAlign: "start !important", alignItems: "initial" }}
+      >
+        <div className="offercardimg">
+          <img
+            alt=""
+            src="https://plus.unsplash.com/premium_photo-1661607052060-507d0ae8bb27?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          />
+        </div>
+        <div className="offerheader" style={{ textAlign: "start" }}>
+          Driving Modern Governance through Technology
+        </div>
+        <div className="offercardcontentbody" style={{ textAlign: "start" }}>
+          Thanks to digitisation and fingertip connectivity, the world has
+          become a far more interwoven and interdependent place. The
+          implications for the business arena are that.....
+        </div>
+        <div className="readmoreabt" style={{ marginTop: 20 }}>
+          <span className="datemore">May 20th 2022</span>{" "}
+          <a className="redread" href="/modern-governance">
+            Read more
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</>
+
+            </Insightlayout>
+            
+            </>
+        );
     }
 
     // The most recent blog will be the first in the list
@@ -67,7 +155,7 @@ const NewsandInsights = () => {
                     </p>
                 </div>
             </div>
-            <div className="py-28 px-[20px] lg:px-24 flex justify-center flex-col items-center">
+            {/* <div className="py-28 px-[20px] lg:px-24 flex justify-center flex-col items-center">
                 <div className="established">
                     <div className="offercard" style={{ textAlign: 'start', alignItems: 'initial' }}>
                         <div className="offercardimg">
@@ -113,7 +201,9 @@ const NewsandInsights = () => {
                     </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
+
+            
         </div>
     );
 };

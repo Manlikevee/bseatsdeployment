@@ -26,7 +26,7 @@ const Navbar = () => {
           isMobileMenuOpen ? "top-[89px]" : "-top-[100vh]"
         } transition border-b-amber-950 absolute list bg-white lg:bg-transparent lg:top-0 z-50 overflow-x-clip overflow-y-visible w-screen lg:w-max h-custom-vh lg:h-full left-5 flex items-center flex-col lg:block`}
       >
-        <ul className="flex flex-col lg:flex-row h-full w-full lg:gap-7 xl:gap-10 items-center">
+        <ul className="flex flex-col lg:flex-row h-full w-full lg:gap-5 xl:gap-7 items-center">
           <Link
             to={"/candidates"}
             className="w-full lg:w-max h-[60px] lg:bg-inherit bg-[#eeeeee] lg:h-max mb-3 lg:mb-0"
@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className="vertical-divider hidden lg:block"></div>
           <Link
             to={"/organisation"}
-            className="w-full lg:w-max h-[60px] lg:bg-inherit bg-[#eeeeee] lg:h-max mb-3 lg:mb-0"
+            className="w-full lg:w-max h-[60px] lg:bg-inherit bg-[#eeeeee] lg:h-max mb-3 lg:mb-0 lg:mr-20"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             <li className="px-5 lg:px-0 flex items-center h-full lg:bg-inherit w-full">

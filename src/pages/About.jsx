@@ -20,7 +20,7 @@ const About = () => {
           <div className="bg-[#F5E6E8] text-[#BD0B20] h-[39px] w-[123px] grid place-items-center font-semibold rounded-[3px]">
             ABOUT US
           </div>
-          <h4 className="text-[25px] lg:text-[48px] text-[#444444] mt-5 font-bold max-w-[500px] leading-[1.1]">
+          <h4 className="text-[23px] lg:text-[44px] text-[#444444] mt-5 font-bold max-w-[550px] leading-[1.1]">
             We are redefining Board Recruitment
           </h4>
           <p className="text-[#424243] mt-4 max-w-[500px]">

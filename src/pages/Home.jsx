@@ -222,7 +222,7 @@ const Home = () => {
                 effectively connecting qualified professionals to the
                 organisations who need them.
               </p>
-              <button onClick={() => window.location.href = '/organisation'} className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[125px] rounded-[5px]">
+              <button onClick={() => window.location.href = '/organisation'} className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[150px] rounded-[5px]">
                 Read More
               </button>
             </div>
@@ -236,7 +236,7 @@ const Home = () => {
                 BoardSeats provides digitised tools and services for effective
                 board setup and management.
               </p>
-              <button onClick={() => window.location.href = 'https://outlook.office365.com/owa/calendar/BoardSeat@risktechadvisory.com/bookings/s/hIOq-vAt8k-NQPGbQ3ErbA2'} className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[125px] rounded-[5px]">
+              <button onClick={() => window.location.href = 'https://outlook.office365.com/owa/calendar/BoardSeat@risktechadvisory.com/bookings/s/hIOq-vAt8k-NQPGbQ3ErbA2'} className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[150px] rounded-[5px]">
                 Book a session
               </button>
             </div>
@@ -251,7 +251,7 @@ const Home = () => {
                 visibility required to attract the opportunities that you seek
               </p>
               <button  onClick={() => window.location.href = 'https://outlook.office365.com/owa/calendar/BoardSeats1@risktechadvisory.com/bookings/s/dVpm5LZ1IkGQXrIFtbYRLg2'}
-                  className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[125px] rounded-[5px]">
+                  className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[150px] rounded-[5px]">
                 Book a session
               </button>
             </div>
@@ -267,7 +267,7 @@ const Home = () => {
                 trainings for organisations and professionals.
               </p>
               <button onClick={() => window.location.href = 'https://outlook.office365.com/owa/calendar/BoardSeats2@risktechadvisory.com/bookings/s/lhva7bA2akqv4vA5kQlEhQ2'}
-                      className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[125px] rounded-[5px]">
+                      className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[150px] rounded-[5px]">
                 Book a session
               </button>
             </div>
@@ -282,7 +282,7 @@ const Home = () => {
                 professionals.
               </p>
               <button onClick={() => window.location.href = 'https://outlook.office365.com/owa/calendar/BoardSeats3@risktechadvisory.com/bookings/s/0rPvWblN-EKW7XA3f_RwNw2'}
-                      className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[125px] rounded-[5px]">
+                      className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[150px] rounded-[5px]">
                 Book a session
               </button>
             </div>
@@ -296,7 +296,7 @@ const Home = () => {
                 you to achieve your goals.
               </p>
               <button onClick={() => window.location.href = 'https://outlook.office365.com/owa/calendar/BoardSeat1@risktechadvisory.com/bookings/'}
-                      className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[125px] rounded-[5px]">
+                      className="text-[#A91F2FCC] border-[1px] border-[#A91F2FCC] h-[40px] w-[150px] rounded-[5px]">
                 Book a session
               </button>
             </div>
@@ -323,13 +323,13 @@ const Home = () => {
           <div className="transforming relative h-[362px] w-[400px] flex  mb-10">
             <div className="h-full w-full bg-custom-gradient z-10 absolute"></div>
             <p className="text-[20px] font-bold relative z-20 text-white ml-5 mb-5 max-w-[79%] mt-auto justify-self-start self-start">
-            High Impact Strategic Recruitment.
+            High Impact Strategic Recruitment
             </p>
           </div>
           <div className="optimizing relative h-[362px] w-[400px] flex  mb-10">
             <div className="h-full w-full bg-custom-gradient z-10 absolute"></div>
-            <p className="text-[20px] font-bold relative z-20 text-white ml-5 mb-5 max-w-[79%] mt-auto justify-self-start self-start">
-            setting up your first board.
+            <p className="capitalize text-[20px] font-bold relative z-20 text-white ml-5 mb-5 max-w-[79%] mt-auto justify-self-start self-start lg:pr-20">
+            setting up your first board
             </p>
           </div>
         </div>

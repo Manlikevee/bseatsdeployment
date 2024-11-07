@@ -16,6 +16,7 @@ import Organization from "./pages/Organization";
 import FAQs from "./pages/FAQs";
 import BlogAdmin from "./pages/BlogAdmin";
 import Terms from "./pages/Terms";
+import Moderngovernance from "./pages/Moderngovernance";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
             <Route path="/faqs" element={<FAQs />} />
             <Route path="/boardseats-blog" element={<BlogAdmin />} />
             <Route path="/terms-of-use" element={<Terms />} />
+            <Route path="/modern-governance" element={<Moderngovernance />} />
           </Routes>
         </div>
         <Footer />

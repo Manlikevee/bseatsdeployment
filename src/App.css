@@ -1211,6 +1211,11 @@ text-align: left;
     gap: 10px;
   }
   
+.minheight{
+    min-height: 110px !important;
+
+}
+
   .accordioncontrol p{
     flex-grow: 1;
     width: 90%;

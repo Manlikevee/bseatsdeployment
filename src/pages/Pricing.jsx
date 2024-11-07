@@ -36,7 +36,7 @@ const Pricing = () => {
           <p className="text-[32px] text-[#424243] font-semibold mb-5">
             N250,000
           </p>
-          <p className="text-[14px] mb-3 text-left">
+          <p className="text-[14px] mb-3 text-left minheight">
             {expanded ? fullText : truncatedText}
             {!expanded && (
                 <span
@@ -50,7 +50,7 @@ const Pricing = () => {
 
           {expanded && (
               <>
-                <p className="text-[14px] text-left">
+                <p className="text-[14px] text-left ">
                   This is similar to newspaper advertorial, but with more
                   benefits:
                 </p>
@@ -122,7 +122,7 @@ const Pricing = () => {
           <p className="text-[32px] text-[#424243] font-semibold mb-5">
             N500,000
           </p>
-          <p className="text-[14px] mb-3 text-left">
+          <p className="text-[14px] mb-3 text-left minheight">
             {expandedSecond ? fullTextSecond : truncatedTextSecond}
             {!expandedSecond && (
                 <span
@@ -136,7 +136,7 @@ const Pricing = () => {
 
           {expandedSecond && (
               <>
-                <p className="text-[14px] text-left">
+                <p className="text-[14px] text-left minheight">
                   Traditional recruitment turbocharged with our auto-matching
                   system.
                 </p>
@@ -200,7 +200,7 @@ const Pricing = () => {
           <p className="text-[32px] text-[#424243] font-semibold mb-5">
             Get&nbsp;a&nbsp;Quote
           </p>
-          <p className="text-[14px] mb-3 text-left">
+          <p className="text-[14px] mb-3 text-left minheight">
             For corporates that require our expertise to manage the entire recruitment process
           </p>
           <button className="h-[60px] w-[100%] bg-[#BD0B20] text-white rounded-[5px] mb-5"
@@ -252,7 +252,7 @@ const Pricing = () => {
           <p className="text-[32px] text-[#424243] font-semibold mb-5">
             Get&nbsp;a&nbsp;Quote
           </p>
-          <p className="text-[14px] mb-3 text-left">
+          <p className="text-[14px] mb-3 text-left minheight">
             For corporates that require our expertise to setup a board from ground up
           </p>
           <button className="h-[60px] w-full bg-[#BD0B20] text-white rounded-[5px] mb-5"
