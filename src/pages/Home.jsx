@@ -314,26 +314,27 @@ const Home = () => {
           Insights and News
         </h4>
         <div className="flex flex-wrap lg:flex-nowrap mt-10 justify-center lg:justify-between w-full gap-3">
-          <div className="settling relative h-[362px] w-[400px] flex mb-10">
+          <div onClick={() => window.location.href = '/modern-governance'} className="settling relative h-[362px] w-[400px] flex mb-10 cursor-pointer">
             <div className="h-full w-full bg-custom-gradient z-10 absolute"></div>
             <p className="text-[20px] font-bold relative z-20 text-white ml-5 mb-5 max-w-[83%] mt-auto justify-self-start self-start">
             Driving Modern Governance through Technology
             </p>
           </div>
-          <div className="transforming relative h-[362px] w-[400px] flex  mb-10">
+          <div onClick={() => window.location.href = 'https://docsend.com/view/jyyf2cy8d27c4tcx'} 
+           className="cursor-pointer transforming relative h-[362px] w-[400px] flex  mb-10">
             <div className="h-full w-full bg-custom-gradient z-10 absolute"></div>
             <p className="text-[20px] font-bold relative z-20 text-white ml-5 mb-5 max-w-[79%] mt-auto justify-self-start self-start">
             High Impact Strategic Recruitment
             </p>
           </div>
-          <div className="optimizing relative h-[362px] w-[400px] flex  mb-10">
+          <div className="cursor-pointer optimizing relative h-[362px] w-[400px] flex  mb-10">
             <div className="h-full w-full bg-custom-gradient z-10 absolute"></div>
             <p className="capitalize text-[20px] font-bold relative z-20 text-white ml-5 mb-5 max-w-[79%] mt-auto justify-self-start self-start lg:pr-20">
             setting up your first board
             </p>
           </div>
         </div>
-        <button className="border-[#A91F2FCC] border-2 rounded-[5px] text-[#A91F2F] h-[40px] w-[157.6px] flex justify-center items-center justify-self-center self-center mx-auto mt-14">
+        <button onClick={() => window.location.href = '/news'}  className="cursor-pointer border-[#A91F2FCC] border-2 rounded-[5px] text-[#A91F2F] h-[40px] w-[157.6px] flex justify-center items-center justify-self-center self-center mx-auto mt-14">
           Read more <img src={RedArrow} alt="" className="ml-2" />
         </button>
       </div>

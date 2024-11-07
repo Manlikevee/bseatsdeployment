@@ -17,6 +17,7 @@ import FAQs from "./pages/FAQs";
 import BlogAdmin from "./pages/BlogAdmin";
 import Terms from "./pages/Terms";
 import Moderngovernance from "./pages/Moderngovernance";
+import Boardrole from "./pages/Boardrole";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             <Route path="/boardseats-blog" element={<BlogAdmin />} />
             <Route path="/terms-of-use" element={<Terms />} />
             <Route path="/modern-governance" element={<Moderngovernance />} />
+            <Route path="/setting-up" element={<Boardrole />} />
           </Routes>
         </div>
         <Footer />

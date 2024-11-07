@@ -92,7 +92,7 @@ body {
 }
 
 .optimizing {
-    background: url(./assets/Home/optimizing.svg) no-repeat;
+    background: url('https://boardseats.io/documents/20121/0/aPicture1.png/') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -898,6 +898,9 @@ body {
     justify-content: center;
 }
 
+.mobileonly{
+display: none !important;
+}
 
 .portlet-decorate .portlet-content {
     width: 100%;
@@ -914,7 +917,18 @@ body {
         object-fit: cover;
         height: auto;
     }
-
+.bbpx{
+    border-bottom: 1px solid #f7f7f7 !important;
+}
+    .desktoponly{
+        display: none !important;
+    }
+    .mobileonly{
+        display: flex !important;
+        justify-content: space-between;
+        width: 100%;
+        border-bottom: 2px solid #ddd;
+        }
     .risk_meeting img {
         width: 100% !important;
         border-radius: 10px;
