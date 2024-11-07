@@ -57,7 +57,7 @@ import activeimgtwelve from "../assets/FAQ/faqActive/activeimagetwelve.png";
 import activeimgthirteen from "../assets/FAQ/faqActive/activeimagethirteen.png";
 import activeimgfourteen from "../assets/FAQ/faqActive/activeimagefourteen.png";
 import activeimgfifteen from "../assets/FAQ/faqActive/activeimagefifteen.png";
-import activeimgsixteen from "../assets/FAQ/faqActive/activeimagesix.png";
+import activeimgsixteen from "../assets/FAQ/faqActive/activeimagesixteen.png";
 import activeimgseventeen from "../assets/FAQ/faqActive/activeimageseventeen.png";
 import activeimgeighteen from "../assets/FAQ/faqActive/activeimageeighteen.png";
 
@@ -73,14 +73,14 @@ const FAQs = () => {
     },
     {
       image: imgnine,
-      activeimage: activeimgnine,
+      activeimage: activeimgtwo,
       question: "Who can join BoardSeats",
       answer:
         "BoardSeats is open to executives with board-ready experience, as well as aspiring board members. It is ideal for executives, industry experts, and leaders across various sectors, and organisations, such as listed entities, private companies, non-profits, startups and government owned entities.",
     },
     {
       image: imgtwo,
-      activeimage: activeimgtwo,
+      activeimage: activeimgthree,
       question: "How do I post a board role on BoardSeats?",
       answer:
         "Posting a role is simple. Create a corporate account, complete your corporate profile, and fill out your role by selecting the bouquet that best suits your current needs and requirements. Once your role is successfully posted, you will start receiving applications from registered candidates. ",
@@ -94,41 +94,41 @@ const FAQs = () => {
     },
     {
       image: imgthree,
-      activeimage: activeimgthree,
+      activeimage: activeimgfive,
       question: "Do small businesses or organisations need a board?",
       answer:
         "Yes, a well-structured business whether small or large should have a board. Having a strong board brings diverse perspectives, expertise, and leadership to the enterprise, helping to steer the organisations through challenges and opportunities. ",
     },
     {
       image: imgfive,
-      activeimage: activeimgfive,
+      activeimage: activeimgsix,
       question: "Is there a fee to joining BoardSeats as an individual? ",
       answer: "No, BoardSeats is currently free to all candidates. ",
     },
     {
       image: imgfive,
-      activeimage: activeimgfive,
+      activeimage: activeimgsix,
       question: "Is there a fee to joining BoardSeats as an organisation?  ",
       answer:
         "Yes, we have 4 bouquets. Please see the Pricing Page for more details. ",
     },
     {
       image: imgsix,
-      activeimage: activeimgsix,
+      activeimage: activeimgeight,
       question: "Are there resources to help me use BoardSeats effectively? ",
       answer:
         "Yes, absolutely. We provide; a comprehensive user guide, tutorial videos, periodic webinars, and one-on-one support as needed. ",
     },
     {
       image: imgseven,
-      activeimage: activeimgseven,
+      activeimage: activeimgnine,
       question: "Can we post multiple board positions? ",
       answer:
         "Yes, organisations can post multiple board positions, manage all postings from a central dashboard, and receive tailored matches for each position. ",
     },
     {
       image: imgeleven,
-      activeimage: activeimgeleven,
+      activeimage: activeimgten,
       question:
         "Is my personal information secure during the verification process?",
       answer:
@@ -136,56 +136,56 @@ const FAQs = () => {
     },
     {
       image: imgtwelve,
-      activeimage: activeimgtwelve,
+      activeimage: activeimgeleven,
       question: "How can I ensure my resume is parsed correctly?",
       answer:
         "For optimal resume parsing: Use standard resume formats Ensure clear section headings Review the parsed information for accuracy Make manual adjustments if needed",
     },
     {
       image: imgthirteen,
-      activeimage: activeimgthirteen,
+      activeimage: activeimgtwelve,
       question: "What types of board positions are available on BoardSeats? ",
       answer:
         "Board opportunities are matched to your profile using a tailored approach based on several key factors such as industry expertise, years of experience, specific skills and qualifications, and geographical location if applicable. ",
     },
     {
       image: imgeighteen,
-      activeimage: activeimgeighteen,
+      activeimage: activeimgthirteen,
       question: "How are board opportunities matched to my profile? ",
       answer:
         "Board opportunities are matched to your profile using a tailored approach based on several key factors such as industry expertise, years of experience, specific skills and qualifications, and geographical location if applicable. ",
     },
     {
       image: imgseventeen,
-      activeimage: activeimgseventeen,
+      activeimage: activeimgfourteen,
       question: "Can I update my profile after verification?",
       answer:
         "Yes, you can update necessary parts of your profile at any time. ",
     },
     {
       image: imgfourteen,
-      activeimage: activeimgfourteen,
+      activeimage: activeimgfifteen,
       question: "What is a Letter of Good Standing and how do I obtain one?",
       answer:
         "A Letter of Good Standing is a document that confirms your professional status and conduct. It can typically be obtained from: Professional associations you belong to The letter should confirm your work experience and professional integrity.",
     },
     {
       image: imgnineteen,
-      activeimage: activeimgfourteen,
+      activeimage: activeimgsixteen,
       question: "Why do I need to verify my identity on BoardSeats?",
       answer:
         "BoardSeats is committed to maintaining a trusted network of genuine candidates. Identity verification helps ensure the authenticity of all users on our platform, creating a secure environment for board-level connections and opportunities. The required documents are: Government-issued ID (passport, driver's license, or national ID card) and Letter of Good Standing or equivalent professional reference. ",
     },
     {
       image: imgfifteen,
-      activeimage: activeimgfifteen,
+      activeimage: activeimgseventeen,
       question: "Can I update my profile after creating it? ",
       answer:
         'Yes, you can update your profile at any time by following these steps: Log in to your account. Go to the "Profile" section. Make the necessary changes. Save your updates. This ensures your profile stays current and reflects your most recent experiences and skills. ',
     },
     {
       image: imgtwenty,
-      activeimage: activeimgfourteen,
+      activeimage: activeimgeighteen,
       question:
         "Can I sign up as both an executive and an organization on BoardSeats? ",
       answer:
