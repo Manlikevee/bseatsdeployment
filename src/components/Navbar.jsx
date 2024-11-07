@@ -19,8 +19,13 @@ const Navbar = () => {
     setToggleAboutMenu(!toggleAboutMenu);
   };
 
+  const closeNavbar = () => {
+    setIsNavbarOpen(false);
+  };
   return (
     <>
+
+
         <div className="desktoponly mynv h-[90px] bg-white flex justify-between items-center w-screen px-5 lg:px-5 xl:px-16 2xl:px-20 fixed z-50">
       <div className="">
         <Link to={"/"}>
@@ -340,6 +345,14 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+
+
+    {isNavbarOpen && (
+          <div
+            className="fixed inset-0 bg-black opacity-50 z-40"
+            onClick={closeNavbar}
+          ></div>
+        )}
 
     </>
 
