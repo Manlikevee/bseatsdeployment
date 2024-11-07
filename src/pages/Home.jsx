@@ -327,7 +327,7 @@ const Home = () => {
             High Impact Strategic Recruitment
             </p>
           </div>
-          <div className="cursor-pointer optimizing relative h-[362px] w-[400px] flex  mb-10">
+          <div className="cursor-pointer optimizing relative h-[362px] w-[400px] flex  mb-10" onClick={() => window.location.href = '/setting-up'}>
             <div className="h-full w-full bg-custom-gradient z-10 absolute"></div>
             <p className="capitalize text-[20px] font-bold relative z-20 text-white ml-5 mb-5 max-w-[79%] mt-auto justify-self-start self-start lg:pr-20">
             setting up your first board

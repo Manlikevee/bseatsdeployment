@@ -98,6 +98,31 @@ const NewsandInsights = () => {
     <br />
     &nbsp;
     <div className="offergridcard">
+    <div
+        className="offercard"
+        style={{ textAlign: "start !important", alignItems: "initial" }}
+      >
+        <div className="offercardimg">
+          <img
+            alt=""
+            src="https://boardseats.io/documents/20121/0/aPicture1.png/"
+            loading="eager"
+          />
+        </div>
+        <div className="offerheader" style={{ textAlign: "start",  marginRight:'40%'}}>
+        setting up your first board
+        </div>
+        <div className="offercardcontentbody" style={{ textAlign: "start" }}>
+        Constituting a governance board is a critical step in establishing a robust corporate governance structure for any corporate or operational legal entity. A well-structured board..
+        </div>
+        <div className="readmoreabt" style={{ marginTop: 20 }}>
+          <span className="datemore">Oct 20th 2024</span>{" "}
+          <a className="redread" href="/setting-up">
+            Read more
+          </a>
+        </div>
+      </div>
+  
       <div
         className="offercard"
         style={{ textAlign: "start !important", alignItems: "initial" }}
