@@ -18,6 +18,8 @@ import BlogAdmin from "./pages/BlogAdmin";
 import Terms from "./pages/Terms";
 import Moderngovernance from "./pages/Moderngovernance";
 import Boardrole from "./pages/Boardrole";
+import Boardseatexecindividual from "./pages/Boardseatexecindividual";
+import Boardseatexecsignup from "./pages/Boardseatexecsignup";
 
 function App() {
   return (
@@ -41,6 +43,8 @@ function App() {
             <Route path="/terms-of-use" element={<Terms />} />
             <Route path="/modern-governance" element={<Moderngovernance />} />
             <Route path="/setting-up" element={<Boardrole />} />
+            <Route path="/signup/candidate" element={<Boardseatexecindividual />} />
+            <Route path="/signup/organization" element={<Boardseatexecsignup />} />
           </Routes>
         </div>
         <Footer />

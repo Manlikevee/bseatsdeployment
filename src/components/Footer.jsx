@@ -49,9 +49,9 @@ const Footer = () => {
         <div className="mb-5 lg:mb-0">
           <h4 className="lg:mb-5 mb-2 text-[#BD0B20] font-bold text-[14px]">
             Organisations
-          </h4>
+          </h4> 
           <ul className="flex flex-col gap-3 text-[12px]">
-            <Link to={"http://test.boardseats.io/c/portal/login?p_l_id=2"}>
+            <Link to={"/signup/organization"}>
             <li>Post Board Role</li>
             </Link>
             <Link to={"/"}>
@@ -67,7 +67,7 @@ const Footer = () => {
             Candidates
           </h4>
           <ul className="flex flex-col gap-3 text-[12px]">
-          <Link to={"http://test.boardseats.io/c/portal/login?p_l_id=2"}>
+          <Link to={"/signup/candidate"}>
             <li>Find a Board Role</li>
           </Link>
           </ul>

@@ -75,7 +75,7 @@ const Pricing = () => {
               </>
           )}
           <button className="h-[60px] w-[100%] bg-[#BD0B20] text-white rounded-[5px] mb-5"
-                  onClick={() => window.location.href = 'http://test.boardseats.io/c/portal/login?p_l_id=2'}>
+                  onClick={() => window.location.href = '/signup/organization'}>
             Choose plan
           </button>
           <div className="mr-auto justify-self-start self-start flex flex-col">
@@ -157,7 +157,7 @@ const Pricing = () => {
               </>
           )}
           <button className="h-[60px] w-full bg-[#BD0B20] text-white rounded-[5px] mb-5"
-                  onClick={() => window.location.href = 'http://test.boardseats.io/c/portal/login?p_l_id=2'}>
+                  onClick={() => window.location.href = '/signup/organization'}>
             Choose plan
           </button>
           <div className="mr-auto justify-self-start self-start flex flex-col">

@@ -39,7 +39,7 @@ const Home = () => {
                 leading governance teams.
               </p>
               <button className="bg-[#A91F2F] flex items-center justify-center ml-auto self-end justify-self-end h-[30px] lg:h-[40px] lg:text-[12px] w-[85px] lg:w-[100px] text-[10px] rounded-full"
-                      onClick={() => window.location.href = 'http://test.boardseats.io/c/portal/login?p_l_id=2'}>
+                      onClick={() => window.location.href = '/signup/candidate'}>
                 Sign Up{" "}
                 <img src={RightArrow} alt="right arrow" className="ml-2" />
               </button>
@@ -53,7 +53,7 @@ const Home = () => {
                 governance team.
               </p>
               <button className="bg-[#A91F2F] flex items-center justify-center ml-auto self-end justify-self-end h-[30px] lg:h-[40px] w-[85px] lg:w-[100px] lg:text-[12px] text-[10px] rounded-full"
-                      onClick={() => window.location.href = 'http://test.boardseats.io/c/portal/login?p_l_id=2'}>
+                      onClick={() => window.location.href = '/signup/organization'}>
                 Sign Up{" "}
                 <img src={RightArrow} alt="right arrow" className="ml-2" />
               </button>
@@ -327,7 +327,7 @@ const Home = () => {
             High Impact Strategic Recruitment
             </p>
           </div>
-          <div className="cursor-pointer optimizing relative h-[362px] w-[400px] flex  mb-10" onClick={() => window.location.href = '/setting-up'}>
+          <div className="cursor-pointer optimizing relative h-[362px] w-[400px] flex  mb-10" onClick={() => window.location.href = 'https://docsend.com/view/yptmukuq58m4cmfx'}>
             <div className="h-full w-full bg-custom-gradient z-10 absolute"></div>
             <p className="capitalize text-[20px] font-bold relative z-20 text-white ml-5 mb-5 max-w-[79%] mt-auto justify-self-start self-start lg:pr-20">
             setting up your first board

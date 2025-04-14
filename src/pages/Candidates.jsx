@@ -20,8 +20,9 @@ const Candidates = () => {
             Join an exclusive community of experienced professionals. Boost your
             visibility for governance opportunities.
           </p>
+          {/* oldurl http://test.boardseats.io/c/portal/login?p_l_id=2 */}
           <button className="bg-[#BD0B20] w-[250px] h-[60px] rounded-[6px] mt-10 text-white"
-                  onClick={() => window.location.href = 'http://test.boardseats.io/c/portal/login?p_l_id=2'}>
+                  onClick={() => window.location.href = '/signup/candidate'}>
             Get Started
           </button>
         </div>
@@ -63,7 +64,7 @@ const Candidates = () => {
           </div>
         </div>
         <button className="text-[#BD0B20] flex items-center z-10 uppercase tracking-widest font-semibold mt-28"
-                onClick={() => window.location.href = 'http://test.boardseats.io/c/portal/login?p_l_id=2'}>>
+                onClick={() => window.location.href = '/signup/candidate'}>>
           Get started <img src={RedArrown} alt="" className="ml-2" />
         </button>
         <img src={Globe1} alt="" className="absolute top-0" />

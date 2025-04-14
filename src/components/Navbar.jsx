@@ -33,7 +33,7 @@ const Navbar = () => {
           <img
             src={bslogo}
             alt="boardseats logo"
-            className="w-[200px] lg:w-[100px] xl:w-[220px]"
+            className="w-[200px] lg:w-[200px] xl:w-[220px]"
           />
         </Link>
       </div>

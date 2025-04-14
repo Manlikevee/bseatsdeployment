@@ -54,9 +54,10 @@ const NewsandInsights = () => {
       <div className="blogsec">
         <h1>Exclusive Insights for our community</h1>
         <div className="aboutheroimgbody">
-          Get constant updates and annoucements of events in the Baord
-          recruitment world. We are here to help you effectively position
-          yourself
+        A few years ago, Amazon came under fire after its Board opposed a
+            shareholder proposal to increase its (the Board’s) diversity. The
+            proposal would require the Board to consider women and minority
+            candidates..
         </div>
       </div>
     </div>
@@ -69,23 +70,23 @@ const NewsandInsights = () => {
         style={{ textAlign: "start !important", alignItems: "initial" }}
       >
         <div className="offercardimg">
-          <img alt="" src="https://boardseats.io/documents/20121/0/room.jpg/" />
+          <img alt="" src="https://boardseats.io/documents/20121/0/aPicture1.png/" />
         </div>
         <div className="offertxt">
           <div className="offerheader" style={{ textAlign: "start" }}>
-            HIGH IMPACT STRATEGIC RECRUITMENT
+          Setting Up Your First Board
           </div>
           <div className="offercardcontentbody" style={{ textAlign: "start" }}>
-            A few years ago, Amazon came under fire after its Board opposed a
+          A few years ago, Amazon came under fire after its Board opposed a
             shareholder proposal to increase its (the Board’s) diversity. The
             proposal would require the Board to consider women and minority
-            candidates for director positions.
+            candidates for director positions..
           </div>
           <div className="readmoreabt" style={{ marginTop: 20 }}>
-            <span className="datemore">September 2024</span>{" "}
+            <span className="datemore">November 2024</span>{" "}
             <a
               className="redread"
-              href="https://docsend.com/view/jyyf2cy8d27c4tcx"
+              href="https://docsend.com/view/yptmukuq58m4cmfx"
             >
               Read more
             </a>
@@ -110,19 +111,18 @@ const NewsandInsights = () => {
           />
         </div>
         <div className="offerheader" style={{ textAlign: "start",  marginRight:'40%'}}>
-        setting up your first board
+        Setting Up Your First Board
         </div>
         <div className="offercardcontentbody" style={{ textAlign: "start" }}>
-        Constituting a governance board is a critical step in establishing a robust corporate governance structure for any corporate or operational legal entity. A well-structured board..
+        Constituting a governance board is a critical step in establishing a robust corporate governance structure for any corporate or operational..
         </div>
         <div className="readmoreabt" style={{ marginTop: 20 }}>
-          <span className="datemore">Oct 20th 2024</span>{" "}
-          <a className="redread" href="/setting-up">
+          <span className="datemore">November 2024</span>{" "}
+          <a className="redread" href="https://docsend.com/view/yptmukuq58m4cmfx">
             Read more
           </a>
         </div>
       </div>
-  
       <div
         className="offercard"
         style={{ textAlign: "start !important", alignItems: "initial" }}
@@ -130,7 +130,31 @@ const NewsandInsights = () => {
         <div className="offercardimg">
           <img
             alt=""
-            src="https://plus.unsplash.com/premium_photo-1661607052060-507d0ae8bb27?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://boardseats.io/documents/20121/0/room.jpg/"
+            loading="eager"
+          />
+        </div>
+        <div className="offerheader" style={{ textAlign: "start" }}>
+        High Impact Strategic Recruitment
+        </div>
+        <div className="offercardcontentbody" style={{ textAlign: "start" }}>
+        A few years ago, Amazon came under fire after its Board opposed a shareholder proposal to increase its (the Board’s) diversity.. 
+        </div>
+        <div className="readmoreabt" style={{ marginTop: 20 }}>
+          <span className="datemore">Oct 20th 2024</span>{" "}
+          <a className="redread" href="https://docsend.com/view/jyyf2cy8d27c4tcx">
+            Read more
+          </a>
+        </div>
+      </div>
+      <div
+        className="offercard"
+        style={{ textAlign: "start !important", alignItems: "initial" }}
+      >
+        <div className="offercardimg">
+          <img
+            alt=""
+            src="https://boardseats.io/documents/20121/0/boardseat-linkedin-img%281%29.jpg/"
           />
         </div>
         <div className="offerheader" style={{ textAlign: "start" }}>
@@ -138,8 +162,7 @@ const NewsandInsights = () => {
         </div>
         <div className="offercardcontentbody" style={{ textAlign: "start" }}>
           Thanks to digitisation and fingertip connectivity, the world has
-          become a far more interwoven and interdependent place. The
-          implications for the business arena are that.....
+          become a far more interwoven and interdependent place..
         </div>
         <div className="readmoreabt" style={{ marginTop: 20 }}>
           <span className="datemore">May 20th 2022</span>{" "}

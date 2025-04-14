@@ -21,7 +21,7 @@ const Organization = () => {
           </p>
           <div className="flex lg:flex-row flex-col">
             <button className="bg-[#BD0B20] w-[250px] h-[60px] rounded-[6px] mt-10 text-white"
-                    onClick={() => window.location.href = 'http://test.boardseats.io/c/portal/login?p_l_id=2'}>
+                    onClick={() => window.location.href = '/signup/organization'}>
               Get Started
             </button>
             <button className="text-[#BD0B20] w-[250px] h-[60px] rounded-[6px] mt-5 lg:mt-10 bg-white lg:ml-10"
@@ -103,7 +103,7 @@ const Organization = () => {
               Automated matching of prospects to organisations
             </div>
             <button className="h-[60px] w-[80%] bg-[#BD0B20] mt-3 rounded-[5px] text-white font-semibold"
-                    onClick={() => window.location.href = 'http://test.boardseats.io/c/portal/login?p_l_id=2'}>
+                    onClick={() => window.location.href = '/signup/organization'}>
               Hire Board Candidates
             </button>
           </div>

@@ -36,7 +36,11 @@ body {
     background-size: cover;
     background-position: center;
 }
-
+.offercardimg img {
+    width: 100%;
+    HEIGHT: 230PX;
+    object-fit: cover;
+}
 .news {
     background: url(./assets/News&Insights/newsinsightsheroimage.svg) no-repeat;
     background-size: cover;
